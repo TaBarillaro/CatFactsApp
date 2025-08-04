@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text.Json.Serialization;
 
 namespace CatFactsApp.Models
 {
-    internal class CatFact
+    public class CatFact
     {
+        [JsonPropertyName("fact")]
+        public string Fact { get; set; }
+
+        [JsonPropertyName("length")]
+        public int Length { get; set; }
     }
 }
