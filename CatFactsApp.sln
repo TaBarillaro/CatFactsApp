@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36327.8 d17.14
+VisualStudioVersion = 17.14.36327.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatFactsApp", "CatFactsApp\CatFactsApp.csproj", "{7DC98A2A-EC46-4464-9027-F7FC68A2CA58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatFactApp.Tests", "CatFactApp.Tests\CatFactApp.Tests.csproj", "{33365580-7B8B-40B4-B9E0-D144974E6F32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7DC98A2A-EC46-4464-9027-F7FC68A2CA58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DC98A2A-EC46-4464-9027-F7FC68A2CA58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DC98A2A-EC46-4464-9027-F7FC68A2CA58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33365580-7B8B-40B4-B9E0-D144974E6F32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33365580-7B8B-40B4-B9E0-D144974E6F32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33365580-7B8B-40B4-B9E0-D144974E6F32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33365580-7B8B-40B4-B9E0-D144974E6F32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
