@@ -4,7 +4,7 @@ using CatFactsApp.Models;
 
 namespace CatFactsApp.Services
 {
-    public class CatFactService
+    public class CatFactService : ICatFactService
     {
         private readonly HttpClient _httpClient = new HttpClient();
         
